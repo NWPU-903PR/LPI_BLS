@@ -24,12 +24,12 @@ Usage:
 
 (1) perform 5 fold cross validation on RPI488 or RPI7317.
 
-$ python LPI_BLS.py -dataset RPI488/RPI7317
+    $ python LPI_BLS.py -dataset RPI488/RPI7317
 
 
 (2) predict a new lncRNA-protein pair.
 
-$ python pse.py (fasta file of lncRNA sequence) (lncRNA_pse_feature) RNA PC-PseDNC-General -lamad=6 -w=0.9
-$ python pse.py (fasta file of protein sequence) (protein_pse_feature) Protein PC-PseAAC-General -lamad=9 -w=0.5
-$ python LPI_BLS.py -pair (lncRNA-protein pair needed to be predicted) -rf (fasta file of lncRNA sequence) -rp (fasta file of protein sequence) -rP (lncRNA_pse_feature) -pP (protein_pse_feature)
+    $ python pse.py (fasta file of lncRNA sequence) (lncRNA_pse_feature) RNA PC-PseDNC-General -lamad=6 -w=0.9
+    $ python pse.py (fasta file of protein sequence) (protein_pse_feature) Protein PC-PseAAC-General -lamad=9 -w=0.5
+    $ python LPI_BLS.py -pair (lncRNA-protein pair needed to be predicted) -rf (fasta file of lncRNA sequence) -rp (fasta file of protein sequence) -rP (lncRNA_pse_feature) -pP (protein_pse_feature)
 
