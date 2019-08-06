@@ -1,0 +1,12 @@
+=========README===
+======
+
+
+This is a folder including data, script and result file in Example in Pse-in-One_manual.pdf file.
+
+
+test.txt and user_indices.txt file are the data file.
+
+example_script.txt includes the scripts in Example.
+
+output_kmer.txt, output_acc.txt, output_pse.csv and output_pse2.csv are the result files in corresponding method.

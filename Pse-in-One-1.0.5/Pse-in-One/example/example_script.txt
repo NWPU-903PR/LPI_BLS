@@ -1,0 +1,13 @@
+Note: this is a file including example script, you can use run this script in command line.
+
+Example 1:
+    kmer.py test.txt output_kmer.txt 2 DNA -f svm
+
+Example 2:
+    acc test.txt output_acc.txt 3 DNA TAC -a True -f svm
+
+Example 3:
+    pse.py test.txt output_pse.csv 3 0.2 DNA PseDNC
+
+Example 4:
+    pse.py test.txt output_pse2.csv 3 0.2 DNA PC-PseDNC-General -e user_indices.txt -f csv
