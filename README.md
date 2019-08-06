@@ -2,7 +2,7 @@
 Predicting lncRNA-protein interactions with a broad learning system-based stacked ensemble classifier
 
 
-Dependencies 
+Dependencies：
 
 (1) numpy
 
