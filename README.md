@@ -4,17 +4,21 @@ Predicting lncRNA-protein interactions with a broad learning system-based stacke
 
 Dependencies：
 
-(1) numpy
 
-(2) scikit-learn
+(1) numpy; (2) scikit-learn
+
 
 Prerequisites:
 
 (1) BroadLearningSystem
+
     We downloaded the code of Broad Learning System from http://www.broadlearning.ai/broad-learning-system-an-effective-and-efficient-incremental-learning-system-without-the-need-for-deep-architecture/
     
 (2) Pse-in-One
+
     We downloaded the code of Pse-in-One from downloaded from http://bioinformatics.hitsz.edu.cn/Pse-in-One/
+
+
 
 Usage:
 
