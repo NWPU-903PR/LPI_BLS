@@ -23,6 +23,7 @@ Prerequisites:
 Usage:
 
 (1) perform 5 fold cross validation on RPI488 or RPI7317.
+
 $ python LPI_BLS.py -dataset RPI488/RPI7317
 
 
