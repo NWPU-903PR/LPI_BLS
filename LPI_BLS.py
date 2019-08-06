@@ -273,16 +273,16 @@ def show_performance(prob, true_y):
 def run_stacking(x_train_cv1, x_train_cv2, x_train_cv3, x_train_cv4, x_train_cv5, y_train_cv, 
                  x_test_cv1, x_test_cv2, x_test_cv3, x_test_cv4, x_test_cv5, y_test_cv, N1, N2, N3):
     
-    n = 10
-    skf0 = StratifiedKFold(n_splits = n, random_state = 1, shuffle = True)
+    
+    skf0 = StratifiedKFold(n_splits = 10, random_state = 1, shuffle = True)
 
     blend_train = np.zeros((x_train_cv1.shape[0], 5))
     blend_test = np.zeros((x_test_cv1.shape[0], 5))
-    blend_test_1 = np.zeros((x_test_cv1.shape[0], n))
-    blend_test_2 = np.zeros((x_test_cv1.shape[0], n))
-    blend_test_3 = np.zeros((x_test_cv1.shape[0], n))
-    blend_test_4 = np.zeros((x_test_cv1.shape[0], n))
-    blend_test_5 = np.zeros((x_test_cv1.shape[0], n))
+    blend_test_1 = np.zeros((x_test_cv1.shape[0], 10))
+    blend_test_2 = np.zeros((x_test_cv1.shape[0], 10))
+    blend_test_3 = np.zeros((x_test_cv1.shape[0], 10))
+    blend_test_4 = np.zeros((x_test_cv1.shape[0], 10))
+    blend_test_5 = np.zeros((x_test_cv1.shape[0], 10))
     num_cv = 0
     
     for train_index_cv, test_index_cv in skf0.split(x_train_cv1, y_train_cv): 
